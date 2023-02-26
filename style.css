@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img//w-qjCHPZbeXCQ-unsplash.jpg);
+}
+
+
+.content{
+    background-color: white;
+  margin: 5px;
+}
+
+.navbar{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblues;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+   margin: 6px;
+}
+
+img{
+    margin-top: 5%;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+p ,h1, button{
+    margin-left: 45%;
+}
